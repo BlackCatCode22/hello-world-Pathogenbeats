@@ -1,3 +1,6 @@
+\\Andrew Powell 8/19/2024    
+\\warmupWithOutput.cpp
+    
 #include <iostream>
 using namespace std;
 
