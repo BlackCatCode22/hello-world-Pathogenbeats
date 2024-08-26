@@ -1,5 +1,5 @@
 //
-//Andrew Powell 8/19/2024
+//Andrew Powell 8/19/2024 (updated 8/25/2024 to fix errors)
 //largestOfThree.cpp
 //
 
@@ -18,7 +18,8 @@ int main() {
     // secondNum = 2
     // thirdNum = 8
 
-    cout << "\nEnter First Number :" << endl;
+cout << "\nLet's Find The Largest Number Among The Three.";
+    cout << "\n\nEnter First Number :" << endl;
     cin >> firstNum;
     cout << "\nEnter Second Number :" << endl;
     cin >> secondNum;
@@ -33,14 +34,20 @@ int main() {
             largestNum = thirdNum;
         }
     }
-    else {
-        if (secondNum > firstNum) {
-            if (secondNum > thirdNum) {}
-            largestNum = secondNum;{
+    else
+    {
+        if (secondNum > firstNum)
+        {
+            if (secondNum > thirdNum)
+            {
+                largestNum = secondNum;
+            }
+            else {
+                largestNum = thirdNum;
             }
         }
-            cout << "\nThe Largest Number is: " << largestNum << endl;
-
-            return 0;
     }
-}
+        cout << "\nThe Largest Number is: " << largestNum << endl;
+
+        return 0;
+    }
